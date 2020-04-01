@@ -1,39 +1,4 @@
 {
-  "name": "@duncanbain/gatsby-theme-tailwind-styled",
-  "author": "duncan@bain.io",
-  "version": "0.0.1",
-  "main": "index.js",
-  "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  },
-  "scripts": {
-    "build": "gatsby build",
-    "clean": "gatsby clean",
-    "develop": "gatsby develop"
-  },
-  "keywords": [
-    "gatsby",
-    "gatsby-plugin",
-    "gatsby-theme",
-    "gatsby-theme-mdx-tailwind-styled",
-    "blog",
-    "tailwind css",
-    "styled components",
-    "react"
-  ],
-  "bugs": {
-    "url": "https://github.com/duncanjbain/gatsby-theme-mdx-tailwind-styled/issues"
-  },
-  "homepage": "https://duncanbain.dev",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/LekoArts/gatsby-themes.git",
-    "directory": "theme/gatsby-theme-mdx-tailwind-styled",
-    "scripts": {
-      "build": "gatsby build",
-      "clean": "gatsby clean",
-      "publish": "npm publish --access public"
-    }
-  }
+  "private": true,
+  "workspaces": ["theme/gatsby-theme-mdx-tailwind-styled", "example"]
 }
