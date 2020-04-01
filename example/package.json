@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "gatsby": "^2.20.10",
-    "gatsby-theme-mdx-tailwind-styled": "*",
+    "@duncanbain/gatsby-theme-mdx-tailwind-styled": "*",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
